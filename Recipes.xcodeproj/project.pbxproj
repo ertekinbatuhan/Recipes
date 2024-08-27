@@ -7,21 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C02ADD3C2C7DC36600588E36 /* RecipeViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02ADD3B2C7DC36600588E36 /* RecipeViewModelDelegate.swift */; };
+		C02ADD3E2C7DC73700588E36 /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02ADD3D2C7DC73700588E36 /* RecipeService.swift */; };
+		C02ADD442C7E2AEA00588E36 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02ADD432C7E2AEA00588E36 /* RecipeCell.swift */; };
+		C02ADD4A2C7E33C200588E36 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C02ADD492C7E33C200588E36 /* Kingfisher */; };
 		C06A91C42C7CCD1D002971E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A91C32C7CCD1D002971E9 /* AppDelegate.swift */; };
 		C06A91C62C7CCD1D002971E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A91C52C7CCD1D002971E9 /* SceneDelegate.swift */; };
-		C06A91C82C7CCD1D002971E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A91C72C7CCD1D002971E9 /* ViewController.swift */; };
+		C06A91C82C7CCD1D002971E9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A91C72C7CCD1D002971E9 /* HomeViewController.swift */; };
 		C06A91CD2C7CCD1F002971E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06A91CC2C7CCD1F002971E9 /* Assets.xcassets */; };
 		C06A91D02C7CCD1F002971E9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C06A91CF2C7CCD1F002971E9 /* Base */; };
+		C06A91D82C7CD2B4002971E9 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A91D72C7CD2B4002971E9 /* Recipe.swift */; };
+		C06A91DB2C7CD398002971E9 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A91DA2C7CD398002971E9 /* APIConstants.swift */; };
+		C06A91DE2C7CD432002971E9 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A91DD2C7CD432002971E9 /* APIManager.swift */; };
+		C06A91E12C7CD571002971E9 /* RecipeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A91E02C7CD571002971E9 /* RecipeError.swift */; };
+		C06A91E32C7CD685002971E9 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06A91E22C7CD685002971E9 /* RecipeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C02ADD3B2C7DC36600588E36 /* RecipeViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipeViewModelDelegate.swift; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/RecipeViewModelDelegate.swift"; sourceTree = "<group>"; };
+		C02ADD3D2C7DC73700588E36 /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		C02ADD432C7E2AEA00588E36 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		C06A91C02C7CCD1D002971E9 /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06A91C32C7CCD1D002971E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C06A91C52C7CCD1D002971E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C06A91C72C7CCD1D002971E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C06A91C72C7CCD1D002971E9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C06A91CC2C7CCD1F002971E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C06A91CF2C7CCD1F002971E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C06A91D12C7CCD1F002971E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06A91D72C7CD2B4002971E9 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		C06A91DA2C7CD398002971E9 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		C06A91DD2C7CD432002971E9 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C06A91E02C7CD571002971E9 /* RecipeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeError.swift; sourceTree = "<group>"; };
+		C06A91E22C7CD685002971E9 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,12 +46,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02ADD4A2C7E33C200588E36 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C02ADD3A2C7DBF5700588E36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C06A91E22C7CD685002971E9 /* RecipeViewModel.swift */,
+				C02ADD3B2C7DC36600588E36 /* RecipeViewModelDelegate.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C02ADD3F2C7DC96200588E36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C06A91D72C7CD2B4002971E9 /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C02ADD402C7DCF0100588E36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C06A91C72C7CCD1D002971E9 /* HomeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C02ADD412C7DCF9300588E36 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C06A91C32C7CCD1D002971E9 /* AppDelegate.swift */,
+				C06A91C52C7CCD1D002971E9 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C02ADD422C7E2ACD00588E36 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C02ADD432C7E2AEA00588E36 /* RecipeCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		C06A91B72C7CCD1D002971E9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +114,44 @@
 		C06A91C22C7CCD1D002971E9 /* Recipes */ = {
 			isa = PBXGroup;
 			children = (
-				C06A91C32C7CCD1D002971E9 /* AppDelegate.swift */,
-				C06A91C52C7CCD1D002971E9 /* SceneDelegate.swift */,
-				C06A91C72C7CCD1D002971E9 /* ViewController.swift */,
+				C02ADD422C7E2ACD00588E36 /* Cell */,
+				C02ADD412C7DCF9300588E36 /* Delegates */,
+				C02ADD402C7DCF0100588E36 /* Views */,
+				C02ADD3F2C7DC96200588E36 /* Model */,
+				C02ADD3A2C7DBF5700588E36 /* ViewModel */,
+				C06A91DF2C7CD565002971E9 /* Utilities */,
+				C06A91DC2C7CD427002971E9 /* Service */,
+				C06A91D92C7CD38E002971E9 /* Constants */,
 				C06A91CC2C7CCD1F002971E9 /* Assets.xcassets */,
 				C06A91CE2C7CCD1F002971E9 /* LaunchScreen.storyboard */,
 				C06A91D12C7CCD1F002971E9 /* Info.plist */,
 			);
 			path = Recipes;
+			sourceTree = "<group>";
+		};
+		C06A91D92C7CD38E002971E9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C06A91DA2C7CD398002971E9 /* APIConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C06A91DC2C7CD427002971E9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C06A91DD2C7CD432002971E9 /* APIManager.swift */,
+				C02ADD3D2C7DC73700588E36 /* RecipeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C06A91DF2C7CD565002971E9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C06A91E02C7CD571002971E9 /* RecipeError.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +170,9 @@
 			dependencies = (
 			);
 			name = Recipes;
+			packageProductDependencies = (
+				C02ADD492C7E33C200588E36 /* Kingfisher */,
+			);
 			productName = Recipes;
 			productReference = C06A91C02C7CCD1D002971E9 /* Recipes.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +201,9 @@
 				Base,
 			);
 			mainGroup = C06A91B72C7CCD1D002971E9;
+			packageReferences = (
+				C02ADD482C7E33C200588E36 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = C06A91C12C7CCD1D002971E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,9 +230,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06A91C82C7CCD1D002971E9 /* ViewController.swift in Sources */,
+				C06A91C82C7CCD1D002971E9 /* HomeViewController.swift in Sources */,
+				C06A91DE2C7CD432002971E9 /* APIManager.swift in Sources */,
+				C02ADD3C2C7DC36600588E36 /* RecipeViewModelDelegate.swift in Sources */,
+				C06A91DB2C7CD398002971E9 /* APIConstants.swift in Sources */,
 				C06A91C42C7CCD1D002971E9 /* AppDelegate.swift in Sources */,
+				C06A91E32C7CD685002971E9 /* RecipeViewModel.swift in Sources */,
+				C02ADD442C7E2AEA00588E36 /* RecipeCell.swift in Sources */,
 				C06A91C62C7CCD1D002971E9 /* SceneDelegate.swift in Sources */,
+				C02ADD3E2C7DC73700588E36 /* RecipeService.swift in Sources */,
+				C06A91E12C7CD571002971E9 /* RecipeError.swift in Sources */,
+				C06A91D82C7CD2B4002971E9 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +453,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C02ADD482C7E33C200588E36 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C02ADD492C7E33C200588E36 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C02ADD482C7E33C200588E36 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C06A91B82C7CCD1D002971E9 /* Project object */;
 }
