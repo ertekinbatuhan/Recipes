@@ -34,9 +34,8 @@ class RecipeCell: UITableViewCell {
         addSubview(recipeImage)
         addSubview(recipeTitle)
         setupUI()
-        
     }
-    
+
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -45,7 +44,6 @@ class RecipeCell: UITableViewCell {
         setImageConstraints()
         setTitleLabelConstraints()
     }
-    
     
     func configure(with recipe: RecipeResult) {
         recipeTitle.text = recipe.title
@@ -77,5 +75,4 @@ class RecipeCell: UITableViewCell {
            
         ])
     }
-    
 }
