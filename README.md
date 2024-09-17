@@ -28,3 +28,4 @@ This architecture pattern enhances testability, maintainability, and scalability
 - **Swift:** The programming language used for developing the application.
 - **UIKit:** The framework used for user interface components and interactions.
 - **XCTest:** The framework used for writing unit tests.
+- **Kingfisher:** A versatile library for efficiently downloading, caching, and displaying images.
