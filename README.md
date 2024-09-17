@@ -11,7 +11,15 @@
 - **Protocol Oriented Programming:** The app's architecture is based on protocols, making the code more modular, testable, and extendable.
 - **Unit Tests:** Comprehensive unit tests have been written for the core functionalities and components of the app to ensure it works correctly and is resilient to errors.
 
-## MVVM Architecture
+## Technologies Used
+
+- **Swift:** The programming language used for developing the application.
+- **UIKit:** The framework used for user interface components and interactions.
+- **XCTest:** The framework used for writing unit tests.
+- **Kingfisher:** A versatile library for efficiently downloading, caching, and displaying images.
+
+
+## MVVM Architecture Used
 
 ![Screenshot 2024-08-09 at 12 31 02](https://github.com/user-attachments/assets/6544dc18-5dbf-424b-b8cb-fcfe1a2bbe88)
 
@@ -23,9 +31,3 @@ The Model-View-ViewModel (MVVM) architecture separates the code into three disti
 
 This architecture pattern enhances testability, maintainability, and scalability by ensuring a clean separation of concerns.
 
-## Technologies Used
-
-- **Swift:** The programming language used for developing the application.
-- **UIKit:** The framework used for user interface components and interactions.
-- **XCTest:** The framework used for writing unit tests.
-- **Kingfisher:** A versatile library for efficiently downloading, caching, and displaying images.
