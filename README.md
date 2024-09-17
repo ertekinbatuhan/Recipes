@@ -21,8 +21,6 @@
 
 ## MVVM Architecture Used
 
-![Screenshot 2024-08-09 at 12 31 02](https://github.com/user-attachments/assets/6544dc18-5dbf-424b-b8cb-fcfe1a2bbe88)
-
 The Model-View-ViewModel (MVVM) architecture separates the code into three distinct layers:
 
 - **Model:** Represents the data and the business logic of the application. It is responsible for managing the data, communicating with the network layer, and storing data persistently if needed.
@@ -30,4 +28,8 @@ The Model-View-ViewModel (MVVM) architecture separates the code into three disti
 - **ViewModel:** Acts as a bridge between the View and the Model. It provides data from the Model to the View and updates the Model based on user interactions from the View. The ViewModel ensures that the View remains unaware of the data layer (Model) and is only responsible for the presentation layer.
 
 This architecture pattern enhances testability, maintainability, and scalability by ensuring a clean separation of concerns.
+
+
+![Screenshot 2024-08-09 at 12 31 02](https://github.com/user-attachments/assets/6544dc18-5dbf-424b-b8cb-fcfe1a2bbe88)
+
 
